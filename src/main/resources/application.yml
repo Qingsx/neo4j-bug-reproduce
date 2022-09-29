@@ -1,0 +1,10 @@
+logging:
+  level:
+    org:
+      springframework:
+        data:
+          neo4j: DEBUG
+      neo4j:
+        driver:
+          internal:
+            async: debug
